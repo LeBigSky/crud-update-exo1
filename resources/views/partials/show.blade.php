@@ -12,7 +12,7 @@
             <p class="d-flex justify-content-center" style= "text-align: center" > Age: {{ $animal['age'] }}</p>
         </div>
         <div class="d-flex justify-content-center gap-5 mt-5">
-           <a href="/update/{{ $animal->id }}"><button class="btn btn-info">EDIT</button> </a>
+           <a href="/edit/{{ $animal->id }}"><button class="btn btn-info">EDIT</button> </a>
            <a href="/delete/{{ $animal->id }}"><button class="btn btn-danger">DELETE</button></a>
         </div>
         

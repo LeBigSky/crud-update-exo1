@@ -37,7 +37,7 @@ class AnimalController extends Controller
     public function update (Request $request, $id){
         $update= Animal::find($id);
         $update->espece= $request->espece;
-        $update->age =$request->age;
+        $update->age= $request->age;
         $update->save();
         return redirect('/');
 

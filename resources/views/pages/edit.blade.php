@@ -1,4 +1,4 @@
 @extends('layouts.app')
 @section('content')
-@include('partials.update')
+@include('partials.edit')
 @endsection
